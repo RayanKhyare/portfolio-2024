@@ -1,3 +1,5 @@
+@import "./utilities/variables.scss"; 
+
 @font-face {
     font-family: "Gallient";
     src:
@@ -71,18 +73,8 @@ table {
 	border-spacing: 0;
 }
 
-:root {
-    --background-color: #F3F3FF;
-    --text-color: #363636;
-    --titel-font-size: 100px;
-    --titel-font-family: "Noto Sans Bold", sans-serif;
-    --text-font-size: 16px;
-    --text-font-family: "Gallient", sans-serif;
-}
-
 body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font-size: var(--text-font-size);
-    font-family: var(--text-font-family);
+    background-color: $background-color;
+    color: $text-color;
+    padding: 0px $page-padding;
 }
