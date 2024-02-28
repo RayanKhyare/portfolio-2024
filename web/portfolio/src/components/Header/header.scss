@@ -5,6 +5,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    position: sticky;
     .header-logo {
         font-family: $text-font-family;
         font-size: 1rem;

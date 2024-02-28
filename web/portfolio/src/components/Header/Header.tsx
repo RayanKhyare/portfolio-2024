@@ -11,8 +11,8 @@ export default function Header() {
             <nav>
                 <ul>
                     <li className={location.pathname === "/" ? "active" : ""}><Link to="/">HOME</Link></li>
-                    <li className={location.pathname.startsWith("/project") ? "active" : ""}><Link to="/project">PROJECT</Link></li>
                     <li className={location.pathname.startsWith("/about") ? "active" : ""}><Link to="/about">ABOUT</Link></li>
+                    <li className={location.pathname.startsWith("/project") ? "active" : ""}><Link to="/project">PROJECT</Link></li>
                     <li className={location.pathname.startsWith("/contact") ? "active" : ""}><Link to="/contact">CONTACT</Link></li>
                 </ul>
             </nav>
